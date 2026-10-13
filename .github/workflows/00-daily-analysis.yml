@@ -385,9 +385,7 @@ jobs:
           FEISHU_FOLDER_TOKEN: ${{ secrets.FEISHU_FOLDER_TOKEN }}
           FEISHU_CHAT_ID: ${{ vars.FEISHU_CHAT_ID || secrets.FEISHU_CHAT_ID }}
           FEISHU_RECEIVE_ID_TYPE: ${{ vars.FEISHU_RECEIVE_ID_TYPE || secrets.FEISHU_RECEIVE_ID_TYPE }}
-          FEISHU_DOMAIN: "feishu"
-          FEISHU_SEND_AS_FILE: "true"
-
+        
           # 方式十：AstrBot
           ASTRBOT_URL: ${{ secrets.ASTRBOT_URL }}
           ASTRBOT_TOKEN: ${{ secrets.ASTRBOT_TOKEN }}
